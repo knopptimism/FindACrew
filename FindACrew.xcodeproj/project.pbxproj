@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		CE3386AA23F315EE0032D3B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3386A923F315EE0032D3B1 /* AppDelegate.swift */; };
 		CE3386AC23F315EE0032D3B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3386AB23F315EE0032D3B1 /* SceneDelegate.swift */; };
-		CE3386AE23F315EE0032D3B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3386AD23F315EE0032D3B1 /* ViewController.swift */; };
 		CE3386B123F315EE0032D3B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3386AF23F315EE0032D3B1 /* Main.storyboard */; };
 		CE3386B323F315F20032D3B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3386B223F315F20032D3B1 /* Assets.xcassets */; };
 		CE3386B623F315F20032D3B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3386B423F315F20032D3B1 /* LaunchScreen.storyboard */; };
+		CE3386BE23F3168C0032D3B1 /* PersonSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3386BD23F3168C0032D3B1 /* PersonSearchTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE3386A623F315EE0032D3B1 /* FindACrew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindACrew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3386A923F315EE0032D3B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE3386AB23F315EE0032D3B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE3386AD23F315EE0032D3B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE3386B023F315EE0032D3B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE3386B223F315F20032D3B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE3386B523F315F20032D3B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE3386B723F315F20032D3B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3386BD23F3168C0032D3B1 /* PersonSearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonSearchTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			children = (
 				CE3386A923F315EE0032D3B1 /* AppDelegate.swift */,
 				CE3386AB23F315EE0032D3B1 /* SceneDelegate.swift */,
-				CE3386AD23F315EE0032D3B1 /* ViewController.swift */,
+				CE3386BD23F3168C0032D3B1 /* PersonSearchTableViewController.swift */,
 				CE3386AF23F315EE0032D3B1 /* Main.storyboard */,
 				CE3386B223F315F20032D3B1 /* Assets.xcassets */,
 				CE3386B423F315F20032D3B1 /* LaunchScreen.storyboard */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE3386AE23F315EE0032D3B1 /* ViewController.swift in Sources */,
+				CE3386BE23F3168C0032D3B1 /* PersonSearchTableViewController.swift in Sources */,
 				CE3386AA23F315EE0032D3B1 /* AppDelegate.swift in Sources */,
 				CE3386AC23F315EE0032D3B1 /* SceneDelegate.swift in Sources */,
 			);
